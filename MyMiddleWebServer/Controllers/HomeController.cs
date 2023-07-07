@@ -14,7 +14,7 @@ namespace ActionResultExample.Controllers
             return Content();
         }
 
-        public IActionResult JsonFile()
+        public IActionResult GetJson()
         {
             return Json();
         }
@@ -29,7 +29,7 @@ namespace ActionResultExample.Controllers
             return File();
         }
 
-        public IActionResult Rdrct()
+        public IActionResult Rdt()
         {
             return Redirect();
         }
